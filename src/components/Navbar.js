@@ -21,6 +21,10 @@ function Navbar() {
     }
   };
 
+
+  /**
+   * find out what is it, useEffect with empty array ? 
+   */
   useEffect(() => {
     showButton();
     window.addEventListener('resize', showButton);
